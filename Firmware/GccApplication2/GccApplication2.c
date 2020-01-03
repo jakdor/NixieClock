@@ -1080,7 +1080,7 @@ void nixie(uint8_t h, uint8_t m, uint8_t s){
 
 	anode(99); //anti-ghosting
 	display(99); 
-	_delay_us(100);
+	_delay_us(200);
 	
 	anode(stage);
 		
@@ -1177,46 +1177,47 @@ void display(uint8_t num){
 	
 	switch(num){
 		case 0:
+			PORTB |= (1<<PB0);
 			break;
 		case 1:
-			PORTB |= (1<<PB0);
 			break;
 		case 2:
-			PORTD |= (1<<PD6);
+			PORTB |= (1<<PB0);
+			PORTD |= (1<<PD7);
 			break;
 		case 3:
-			PORTB |= (1<<PB0);
-			PORTD |= (1<<PD6);
+			PORTD |= (1<<PD7);
 			break;
 		case 4:
+			PORTB |= (1<<PB0);
+			PORTD |= (1<<PD6);
 			PORTD |= (1<<PD5);
 			break;
 		case 5:
-			PORTB |= (1<<PB0);
+			PORTD |= (1<<PD6);
 			PORTD |= (1<<PD5);
 			break;
 		case 6:
-			PORTD |= (1<<PD6);
+			PORTB |= (1<<PB0);
 			PORTD |= (1<<PD5);
 			break;
 		case 7:
-			PORTB |= (1<<PB0);
-			PORTD |= (1<<PD6);
 			PORTD |= (1<<PD5);
 			break;
 		case 8:
-			PORTD |= (1<<PD7);
+			PORTB |= (1<<PB0);
+			PORTD |= (1<<PD6);
 			break;
 		case 9:
-			PORTB |= (1<<PB0);
-			PORTD |= (1<<PD7);
+			PORTD |= (1<<PD6);
 			break;
 		case 99: //off
+			PORTD |= (1<<PD5);
 			PORTD |= (1<<PD6);
 			PORTD |= (1<<PD7);
 			break;
 	}
-	
+		
 	return;	
 }
 
