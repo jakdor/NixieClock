@@ -2,6 +2,7 @@
 ### Firmware for IN12/IN14 nixie clock ATmega8 based design
 
 For other PCB design checkout current branch:
+
 | Design name   | GIT branch    |
 | ------------- |:-------------:|
 | IN-12 (THT)   | IN12THT       |
@@ -11,19 +12,21 @@ For other PCB design checkout current branch:
 PCB project
 ------
 
-![PCB IN-12 Nixie clock](https://workspace.circuitmaker.com/Projects/Details/Jakub-Dorda/IN-12-Nixie-clock)
+[PCB IN-12 Nixie clock](https://workspace.circuitmaker.com/Projects/Details/Jakub-Dorda/IN-12-Nixie-clock)
 
 Compiled firmware
 ------
 
 Download latest compiled firmware from GitHub repository release tab:
-![Release tab](https://github.com/jakdor/NixieClock/releases)
+
+[Release tab](https://github.com/jakdor/NixieClock/releases)
 
 Documentation/manuals
 ------
 
 Documentation is located in 'Docs' folder or under this link:
-![ASSEMBLY GUIDE/USER MANUAL/PARTS LIST](https://goo.gl/EqvBFE)
+
+[ASSEMBLY GUIDE/USER MANUAL/PARTS LIST](https://goo.gl/EqvBFE)
 
 FEATURES
 ------
@@ -47,7 +50,8 @@ FEATURES
 
 YouTube videos:
 
-![https://www.youtube.com/watch?v=hwEY1RJ39X0](https://www.youtube.com/watch?v=hwEY1RJ39X0)
-![https://www.youtube.com/watch?v=vacfdvKtQjE](https://www.youtube.com/watch?v=hwEY1RJ39X0)
+[https://www.youtube.com/watch?v=hwEY1RJ39X0](https://www.youtube.com/watch?v=hwEY1RJ39X0)
+
+[https://www.youtube.com/watch?v=vacfdvKtQjE](https://www.youtube.com/watch?v=hwEY1RJ39X0)
 
 ![NixieClock](https://i.imgur.com/jiBY5re.jpg)
