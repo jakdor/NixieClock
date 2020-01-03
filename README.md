@@ -12,7 +12,7 @@ For other PCB design checkout current branch:
 PCB project
 ------
 
-[PCB IN-12 Nixie clock](https://workspace.circuitmaker.com/Projects/Details/Jakub-Dorda/IN-12-Nixie-clock)
+[PCB IN-12 Nixie clock](https://circuitmaker.com/Projects/Details/Jakub-Dorda/IN-12-Nixie-clock)
 
 Compiled firmware
 ------
