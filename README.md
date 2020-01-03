@@ -12,14 +12,16 @@ For other PCB design checkout current branch:
 PCB project
 ------
 
-[PCB IN-12 Nixie clock](https://workspace.circuitmaker.com/Projects/Details/Jakub-Dorda/IN-12-Nixie-clock)
+[PCB IN-12 Nixie clock](https://circuitmaker.com/Projects/Details/Jakub-Dorda-2/IN-12ClockSMD)
+
+Output gerber files are located in 'PCBgerber' folder.
 
 Compiled firmware
 ------
 
 Download latest compiled firmware from GitHub repository release tab:
 
-[Release tab](https://github.com/jakdor/NixieClock/releases)
+[Latest release](https://github.com/jakdor/NixieClock/releases)
 
 Documentation/manuals
 ------
