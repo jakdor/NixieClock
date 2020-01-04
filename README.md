@@ -9,6 +9,34 @@ For other PCB design checkout current branch:
 | IN-12 (SMD)   | IN12SMD       |
 | IN-14 (SMD)   | IN14SMD       |
 
+Compiling project
+------
+
+#### Windows
+
+Download latest Atmel Studio IDE [Atmel Studio 7](https://www.microchip.com/mplab/avr-support/atmel-studio-7)
+
+#### GNU/Linux (tested on Debian)
+
+install dependencies:
+
+```
+make install
+```
+
+compile project:
+
+```
+make
+```
+
+flash ATmega using USBasp programmer:
+
+```
+make flash
+```
+
+
 PCB project
 ------
 
