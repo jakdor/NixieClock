@@ -18,6 +18,8 @@ Download latest Atmel Studio IDE [Atmel Studio 7](https://www.microchip.com/mpla
 
 #### GNU/Linux (tested on Debian)
 
+Makefile is located in Firmware/GccApplication2/ folder.
+
 install dependencies:
 
 ```
