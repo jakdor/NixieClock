@@ -58,7 +58,7 @@ Documentation/manuals
 
 Documentation is located in 'Docs' folder or under this link:
 
-[ASSEMBLY GUIDE/USER MANUAL/PARTS LIST](https://goo.gl/EqvBFE)
+[ASSEMBLY GUIDE/USER MANUAL/PARTS LIST](https://drive.google.com/drive/folders/0B9FzEUmQ64ufNGhZc0ZZaVdwLUU?resourcekey=0-s044K60KnPoKif74YDNPJA&usp=sharing)
 
 FEATURES
 ------
